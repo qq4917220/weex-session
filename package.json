@@ -1,0 +1,50 @@
+{
+  "name": "weex-session",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "types": "types/dist/index.d.ts",
+  "author": "qq4917220 <4917220@qq.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "webpack --config dev/webpack.config.js",
+    "build": "node ./tools/build.js"
+  },
+  "engines": {
+    "node": ">=6.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qq4917220/weex-session.git"
+  },
+  "bugs": {
+    "url": "https://github.com/qq4917220/weex-session/issues"
+  },
+  "homepage": "https://github.com/qq4917220/weex-session#readme",
+  "keywords": [
+    "ray",
+    "weex",
+    "log",
+    "session",
+    "ts",
+    "typescript"
+  ],
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-plugin-component": "^0.10.1",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "css-loader": "^0.28.8",
+    "express": "^4.16.2",
+    "style-loader": "^0.19.1",
+    "ts-loader": "^3.1.1",
+    "typescript": "^2.6.1",
+    "vue": "^2.5.3",
+    "vue-class-component": "^6.1.0",
+    "vue-loader": "^13.7.0",
+    "vue-property-decorator": "^6.0.0",
+    "vue-template-compiler": "^2.5.2",
+    "webpack": "^3.8.1"
+  },
+  "dependencies": {}
+}
