@@ -57,6 +57,21 @@ import session from "../src/session";
 
 ```    
 
+## Result
+
+```
+
+-----------run-------------
+str:string
+num:100
+content:{"str":"string","num":100}
+content is clear:{}
+content show keys:["str","num"]
+content is reset:{}
+-----------END run-------------
+
+```
+
 ## Other
 
 生成的JS文件在dist目录中，可使用JS调用，调用方式雷同，不再重复。
