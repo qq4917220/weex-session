@@ -1,13 +1,10 @@
 Weex-session is a session replacement middleware that can be used to replace local-storage, easy to use, and not to take up resources.
-=================
+
+Thanks to Zaaksam's technology sharing!
 
 weex-session是一个session代替的中间件,可用来替换local-storage,方便使用，且不占资源。
 
 感谢Zaaksam的技术分享!
-
-Weex-session is a session replacement middleware that can be used to replace local-storage, easy to use, and not to take up resources.
-
-Thanks to Zaaksam's technology sharing!
 
 ## Install
 
