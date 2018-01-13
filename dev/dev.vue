@@ -31,19 +31,23 @@ export default class Index extends Vue {
   content = "";
 
   created() {
+
     session.set<string>("str", "string");
     session.set<number>("num", 100);
     this.content += "str:" + session.get("str") + "<br/>";
     this.content += "num:" + session.get("num") + "<br/>";
     this.content += "content:" + JSON.stringify(session.content()) + "<br/>";
+
     session.del("str");
     session.del("num");
     this.content +=
       "content is clear:" + JSON.stringify(session.content()) + "<br/>";
+
     session.set<string>("str", "string");
     session.set<number>("num", 200);
     this.content +=
       "content show keys:" + JSON.stringify(session.keys()) + "<br/>";
+      
     session.reset();
     this.content +=
       "content is reset:" + JSON.stringify(session.content()) + "<br/>";
