@@ -26,8 +26,10 @@ import session from "../src/session";
 - `set<T>(key: string, value: T)` 设置session，需要传值的类型 set the session, need to pass the type of value
 - `get<T>(key: string)` 获取session  get session
 - `content` 全部记录内容 all records
+- `keys` 全部记录的键值数组 All recorded array of key values
 - `has(key: string)` 是否存在这个key  whether the existence of this key
 - `del(key: string)` 删除这个key  delete this key
+- `reset()` 清空全部记录  clear all the records
 
 ## Example
 
@@ -35,17 +37,23 @@ import session from "../src/session";
 
     session.set<string>("str", "string");
     session.set<number>("num", 100);
-
     this.content += "str:" + session.get("str") + "<br/>";
     this.content += "num:" + session.get("num") + "<br/>";
-
     this.content += "content:" + JSON.stringify(session.content()) + "<br/>";
 
     session.del("str");
     session.del("num");
-    
     this.content +=
       "content is clear:" + JSON.stringify(session.content()) + "<br/>";
+
+    session.set<string>("str", "string");
+    session.set<number>("num", 200);
+    this.content +=
+      "content show keys:" + JSON.stringify(session.keys()) + "<br/>";
+      
+    session.reset();
+    this.content +=
+      "content is reset:" + JSON.stringify(session.content()) + "<br/>";
 
 ```    
 
