@@ -1,2 +1,2 @@
-import logger from './logger';
-export default logger;
+import session from './session';
+export default session;

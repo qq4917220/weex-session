@@ -1,4 +1,4 @@
-interface SessionItem {
+export interface SessionItem {
     [key: string]: any
 }
 
