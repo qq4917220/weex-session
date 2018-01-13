@@ -17,7 +17,7 @@ Thanks to Zaaksam's technology sharing!
 
 ```ts
 
-import session from "../src/session";
+import session from "weex-session";
 
 ```
 

@@ -1,6 +1,6 @@
 {
   "name": "weex-session",
-  "version": "1.1.18",
+  "version": "1.1.19",
   "main": "dist/index.js",
   "types": "types/dist/index.d.ts",
   "author": "qq4917220 <4917220@qq.com>",
