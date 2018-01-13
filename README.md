@@ -1,4 +1,4 @@
-weex-session
+Weex-session is a session replacement middleware that can be used to replace local-storage, easy to use, and not to take up resources.
 =================
 
 weex-session是一个session代替的中间件,可用来替换local-storage,方便使用，且不占资源。
